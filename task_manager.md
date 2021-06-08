@@ -11,3 +11,4 @@ $ rails dbconsole
 
 bundle exec rspec
 
+rails g migration AddArtistsToSongs artist:references
