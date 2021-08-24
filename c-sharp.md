@@ -137,3 +137,7 @@ while (i < 5)
 * ``continue`` breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop. 
 
 ### Arrays
+* string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+* Array.Sort(cars);
+* using System.Linq; (``Min``, ``Max``, ``Sum``)
+* 
