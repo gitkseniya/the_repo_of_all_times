@@ -140,4 +140,18 @@ while (i < 5)
 * string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 * Array.Sort(cars);
 * using System.Linq; (``Min``, ``Max``, ``Sum``)
-* 
+* ``for`` loop using .Length (how many times) // for (int i = 0; i < cars.Length; i++) 
+* ``for each`` same as above, iterate over the elements in an array // foreach (string i in cars) 
+* ``sort`` Array.Sort(cars);
+
+```sh
+.Linq namespace
+```
+.Min, .Max, .Sum
+Console.WriteLine(myNumbers.Max());
+
+* Create NEW ARRAY
+    * string[] cars = new string[4];
+    * string[] cars = new string[4] {"Volvo", "BMW", "Ford", "Mazda"};
+    * string[] cars = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
+    * string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};1 
