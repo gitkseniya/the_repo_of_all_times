@@ -1,7 +1,7 @@
 # How to create docker images and containers for Rails
 ## The following steps assume you have downloaded docker desktop and docker-compose 
-## Note: if you downloaded docker desktop for mac you do not need to do any additional installation for docker-compose.
-## Note: This is just a very basic how-to, I am by no means an expert, but this is how I got my Rails app successfully built in containers and created custom info. 
+#### Note: if you downloaded docker desktop for mac you do not need to do any additional installation for docker-compose.
+#### Note: This is just a very basic how-to, I am by no means an expert, but this is how I got my Rails app successfully built in containers and created custom info. 
 ## It may require some googling for errors. As I understand it, you will not have to build containers from scratch very often. I hope this helps! 
 # Steps
 ## Author: Wyatt Wicks 
