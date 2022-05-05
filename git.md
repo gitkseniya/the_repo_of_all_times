@@ -124,8 +124,13 @@ git diff origin..master > my.patch  # pipes a diff into my.patch
 
 # get diffstat of uncommitted work
 git diff --stat HEAD
+  
+  
+  ### Squash up until the commit that is published 
+  git rebase -i <commit hash AFTER the last commit that you want to squash>
 
-
+### Add recent change to the most recent commit
+git commit --amend --no-edit  
 
 
 ## Sublime as default text editor
